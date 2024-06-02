@@ -10,26 +10,26 @@
 - `$ pacman -S zsh-syntax-highlighting`
 - `$ echo "source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc`
 2. zsh-auto-suggestions
-- `$ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions`
-- `$ echo "source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc`
-3. starship
+-. `$ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions`
+-. `$ echo "source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc`
+### starship
 - `$ curl -sS https://starship.rs/install.sh | sh`
-4. fastfetch 
+### fastfetch 
 - `$ pacman -S fastfetch`
-5. kitty
+### kitty
 - `$ pacman -S kitty`
-6. picom
+### picom
 - `$ pacman -S picom`
-7. nvim
-- `$ pacman -S nodejs npm lua5.4 luarocks python xclip`
-- `$ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+### neovim
+1. `$ pacman -S nodejs npm lua5.4 luarocks python xclip`
+2. `$ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim`
-- open nvim, go to `~/.config/nvim/lua/packer.lua`. Source the file and simply run `:PackerSync`!
-8. dwm and dmenu
+3. open nvim, go to `~/.config/nvim/lua/packer.lua`. Source the file and simply run `:PackerSync`!
+### dwm and dmenu
 - `$ pacman -S libxinerama libxft`
-9. fonts
-- Meslo
-- Sauce Code Pro
+### fonts
+1. Meslo
+2. Sauce Code Pro
 
 ## Create Symlinks for the files
 - `$ stow .`
