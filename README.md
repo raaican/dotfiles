@@ -34,6 +34,9 @@
 ## Create Symlinks for the files
 - `$ stow .`
 
+# Screenshot
+
+![doneyes](https://github.com/dREADEDbIRD/dotfiles/assets/92884276/e03977cb-5c98-4d83-a145-3d1dc1c6d88c)
 
 
 
