@@ -43,8 +43,8 @@
             "type": "wm"
         },
         {
-            "key": "│           │\u001b[11D\u001b[31m  term",
-            "type": "terminal"
+            "key": "│           │\u001b[11D\u001b[31m  shell",
+            "type": "shell"
         },
         {
             "key": "│           │\u001b[11D\u001b[33m󰍛  cpu",
