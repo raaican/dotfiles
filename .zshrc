@@ -6,6 +6,7 @@ bindkey -v
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/raican/.zshrc'
+fastfetch --config .config/fastfetch/config-1.jsonc
 alias ls="ls --color=auto"
 
 autoload -Uz compinit
@@ -13,4 +14,5 @@ compinit
 # End of lines added by compinstall
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export EDITOR=nvim
 eval "$(starship init zsh)"
