@@ -6,7 +6,7 @@ bindkey -v
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/raican/.zshrc'
-fastfetch --config .config/fastfetch/config-1.jsonc
+fastfetch --config ~/.config/fastfetch/config-1.jsonc
 alias ls="ls --color=auto"
 
 autoload -Uz compinit

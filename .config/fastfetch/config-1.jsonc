@@ -21,7 +21,7 @@
             "type": "uptime"
         },
         {
-            "key": "│           │\u001b[11D\u001b[34m󰣇 distro",
+            "key": "│           │\u001b[11D\u001b[34m󰣇  distro",
             "type": "os"
         },
         {
@@ -33,7 +33,7 @@
             "type": "memory"
         },
         {
-            "key": "│           │\u001b[11D\u001b[33m editor",
+            "key": "│           │\u001b[11D\u001b[33m  editor",
             "type": "editor"
         },
         {
