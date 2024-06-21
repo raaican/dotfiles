@@ -23,9 +23,9 @@ dwm_resources () {
 
 	printf "%s" "$SEP1"
 	if [ "$IDENTIFIER" = "" ]; then
-		printf "%s %s %s" "$CPU"  "$MEMUSED" "$STOUSED"
+		printf "%s %s" "$CPU"  "$MEMUSED"
 	else
-		printf "%s %s %s" "$CPU"  "$MEMUSED" "$STOUSED"
+		printf "%s %s" "$CPU"  "$MEMUSED"
 	fi
 	printf "%s\n" "$SEP2"
     

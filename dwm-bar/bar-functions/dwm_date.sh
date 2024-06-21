@@ -8,9 +8,9 @@
 dwm_date () {
     printf "%s" "$SEP1"
     if [ "$IDENTIFIER" = "" ]; then
-        printf "%s" "$(date "+%I:%M %p - %m-%d")"
+        printf "%s" "$(date "+%m/%d - %I:%M %p")"
     else
-        printf "%s" "$(date "+%I:%M %p - %m-%d")"
+        printf "%s" "$(date "+%m/%d - %I:%M %p")"
     fi
     printf "%s\n" "$SEP2"
 }
