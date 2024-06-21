@@ -22,8 +22,7 @@
 - `$ pacman -S picom`
 ### neovim
 1. `$ pacman -S nodejs npm lua5.4 luarocks python xclip`
-2. `$ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
- ~/.local/share/nvim/site/pack/packer/start/packer.nvim`
+2. `$ git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim`
 3. open nvim, go to `~/.config/nvim/lua/packer.lua`. Source the file and simply run `:PackerSync`!
 ### dwm and dmenu
 - `$ pacman -S libxinerama libxft`
