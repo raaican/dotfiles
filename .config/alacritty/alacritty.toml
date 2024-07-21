@@ -1,0 +1,20 @@
+import = [
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding = { x = 5, y = 5 }
+opacity = 0.95
+
+[font]
+normal = { family = "SauceCodePro Nerd Font", style = "Black,egular" }
+#bold = { family = "SauceCodePro NF SemiBold", style = "Bold" }
+#italic = { family = "SauceCodePro NF SemiBold", style = "Italic" }
+#bold_italic = { family = "SauceCodePro NF SemiBold", style = "Bold Italic" }
+size = 13.7
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }

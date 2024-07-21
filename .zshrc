@@ -8,7 +8,7 @@ bindkey -v
 zstyle :compinstall filename '/home/raican/.zshrc'
 fastfetch --config ~/.config/fastfetch/config-1.jsonc
 alias ls="ls --color=auto"
-
+alias spotif="LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify-launcher"
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall

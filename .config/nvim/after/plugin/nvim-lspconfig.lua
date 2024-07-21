@@ -10,6 +10,12 @@ lspconfig.lua_ls.setup({
 lspconfig.clangd.setup({
     capabilities = capabilities,
 })
+lspconfig.phpactor.setup({
+    capabilities = capabilities,
+})
+lspconfig.ruff_lsp.setup({
+    capabilities = capabilities,
+})
 
 vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})

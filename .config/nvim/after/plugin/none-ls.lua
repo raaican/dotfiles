@@ -8,6 +8,8 @@ null_ls.setup({
         -- Typescript server
         null_ls.builtins.formatting.prettier,
         null_ls.builtins.diagnostics.semgrep,
+        -- Python server
+        null_ls.builtins.diagnostics.semgrep,
     },
 })
 

@@ -17,12 +17,16 @@
             "format": "{2}"
         },
         {
-            "key": "│           │\u001b[11D\u001b[33m󰅐  uptime",
-            "type": "uptime"
+            "key": "│           │\u001b[11D\u001b[33m  kernel",
+            "type": "kernel"
         },
         {
             "key": "│           │\u001b[11D\u001b[34m󰣇  distro",
             "type": "os"
+        },
+        {
+            "key": "│           │\u001b[11D\u001b[33m󰅐  uptime",
+            "type": "uptime"
         },
         {
             "key": "│           │\u001b[11D\u001b[31m  shell",
@@ -31,10 +35,6 @@
         {
             "key": "│           │\u001b[11D\u001b[35m  memory",
             "type": "memory"
-        },
-        {
-            "key": "│           │\u001b[11D\u001b[33m  editor",
-            "type": "editor"
         },
         {
             "key": "╰───────────╯",
