@@ -24,7 +24,6 @@ $lua\
 $docker_context\
 $conda\
 [](fg:#f5a97f bg:#ee99a0)\
-$time\
 [ ](fg:#ee99a0)\
 $line_break$character"""
 
