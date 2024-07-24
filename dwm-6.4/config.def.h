@@ -8,13 +8,13 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static unsigned int baralpha        = 0xd0;
 static unsigned int borderalpha     = OPAQUE;
-static const char *fonts[]          = { "MesloLGM Nerd Font:size=11" };
-static const char dmenufont[]       = "MesloLGM Nerd Font:size=11";
-static const char col_gray1[]       = "#222222";
+static const char *fonts[]          = { "MesloLGM Nerd Font:size=10" };
+static const char dmenufont[]       = "MesloLGM Nerd Font:size=10";
+static const char col_gray1[]       = "#17121A";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#005577";
+static const char col_cyan[]        = "#37334A";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -60,7 +60,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static const char *dmenucmd[] = { "dmenu_run", "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
-static const char *termcmd[]  = { "kitty", NULL };
+static const char *termcmd[]  = { "alacritty", NULL };
 static const char *flameshotcmd[]  = { "flameshot", "gui", "--clipboard", NULL };
 
 static const Key keys[] = {
