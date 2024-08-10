@@ -10,11 +10,12 @@ padding = { x = 5, y = 5 }
 opacity = 0.95
 
 [font]
-normal = { family = "SauceCodePro Nerd Font", style = "Black,egular" }
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+#normal = { family = "SauceCodePro Nerd Font", style = "Black,Regular" }
 #bold = { family = "SauceCodePro NF SemiBold", style = "Bold" }
 #italic = { family = "SauceCodePro NF SemiBold", style = "Italic" }
 #bold_italic = { family = "SauceCodePro NF SemiBold", style = "Bold Italic" }
-size = 13.7
+size = 12.3
 
 [cursor]
 style = { shape = "Beam", blinking = "On" }
