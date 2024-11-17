@@ -10,9 +10,6 @@ $directory\
 $git_branch\
 $git_status\
 [](fg:#a6da95 bg:#eed49f)\
-$c\
-$rust\
-$golang\
 $nodejs\
 $php\
 $java\
@@ -23,7 +20,10 @@ $lua\
 [](fg:#eed49f bg:#f5a97f)\
 $docker_context\
 $conda\
+$golang\
 [](fg:#f5a97f bg:#ee99a0)\
+$c\
+$rust\
 [ ](fg:#ee99a0)\
 $line_break$character"""
 
@@ -96,23 +96,23 @@ format = '[[($all_status$ahead_behind )](fg:color_fg0 bg:#a6da95)]($style)'
 
 [nodejs]
 symbol = ""
-style = "bg:#eed49f"
+style = "bg:#eed49f" 
 format = '[[ $symbol( $version) ](fg:color_fg0 bg:#eed49f)]($style)'
 
 [c]
 symbol = " "
-style = "bg:#eed49f"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:#eed49f)]($style)'
+style = "bg:#ee99a0"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:#ee99a0)]($style)'
 
 [rust]
 symbol = ""
-style = "bg:#eed49f"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:#eed49f)]($style)'
+style = "bg:#ee99a0"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:#ee99a0)]($style)'
 
 [golang]
 symbol = ""
-style = "bg:#eed49f"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:#eed49f)]($style)'
+style = "bg:#f5a97f"
+format = '[[ $symbol( $version) ](fg:color_fg0 bg:#f5a97f)]($style)'
 
 [php]
 symbol = ""
