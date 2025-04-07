@@ -7,6 +7,7 @@ xset s off &
 xset dpms 3700 0 3760 &
 ~/.fehbg &
 picom --config ~/.config/picom/picom.conf &
+~/.local/bin/lanyard-spotify-np.sh &
 slstatus &
 exec dwm
 # xinput set-prop 'Cooler Master Technology Inc. MM711 Gaming Mouse' 'libinput Accel Speed' -0.60 &

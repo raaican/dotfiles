@@ -6,12 +6,15 @@
         "width": 20,
         "height": 10,
         "padding": {
-            "top": 1
+            "top": 1,
+            "left": 2
         }
     },
     "display": {
         "separator": "",
-        "keyWidth": 15
+        "key": {
+            "width": 15
+        }
     },
     "modules": [
         {

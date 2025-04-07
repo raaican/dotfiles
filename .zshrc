@@ -4,6 +4,7 @@ HISTSIZE=10000
 SAVEHIST=10000
 export EDITOR=nvim
 export PATH=/home/raican/.cargo/bin:$PATH
+export PATH="$HOME/.local/share/gem/ruby/3.3.0/bin:$PATH"
 bindkey -v
 # bindkey '^P' up-history
 # bindkey '^N' down-history
@@ -14,6 +15,7 @@ bindkey '^S' .history-incremental-search-forward
 source /home/raican/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.nvm/nvm.sh
 zstyle :compinstall filename '/home/raican/.zshrc'
 fastfetch --config ~/.config/fastfetch/config-1.jsonc
 alias ls="ls --color=auto"
