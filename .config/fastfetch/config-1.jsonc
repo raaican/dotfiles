@@ -37,6 +37,11 @@
             "type": "memory"
         },
         {
+ 
+            "key": "│           │\u001b[11D\u001b[32m wm",
+            "type": "wm"
+        },
+        {
             "key": "╰───────────╯",
             "type": "custom"
         }

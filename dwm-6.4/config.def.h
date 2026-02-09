@@ -65,6 +65,7 @@ static const char *launchercmd[]  = { "rofi", "-show", "drun", NULL };
 static const char *termcmd[]  = { "alacritty", NULL };
 static const char *flameshotcmd[]  = { "flameshot", "gui", "--clipboard", NULL };
 static const char *cmuscmd[]  = { "alacritty", "-e", "cmus", NULL };
+static const char *thunarcmd[] = { "thunar", "--daemon", "false", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -73,6 +74,7 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_s,      spawn,          {.v = flameshotcmd } },
 	{ MODKEY|ShiftMask,             XK_x,      spawn,          {.v = cmuscmd } },
+	{ MODKEY,                       XK_e,      spawn,          {.v = thunarcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
