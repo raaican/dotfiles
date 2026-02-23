@@ -35,7 +35,8 @@
 
 # Screenshot
 
-![doneyes](https://github.com/dREADEDbIRD/dotfiles/assets/92884276/e03977cb-5c98-4d83-a145-3d1dc1c6d88c)
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/d54702ad-2e13-496b-b6dc-43a1fc610fb9" />
+
 
 
 
