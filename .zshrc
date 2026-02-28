@@ -18,9 +18,6 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 # source ~/.nvm/nvm.sh
 zstyle :compinstall filename '/home/raican/.zshrc'
 fastfetch --config ~/.config/fastfetch/config-1.jsonc
-alias kdquit="qdbus org.kde.ksmserver /KSMServer logout 0 0 0"
-alias xdwm="startx ./.xinitrc.d/dwm"
-alias xkde="startx ./.xinitrc.d/kde"
 alias ls="ls -lah --color=auto"
 alias kittyfetch="fastfetch --config ~/.config/fastfetch/config-2.jsonc"
 alias graphgit="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all"
