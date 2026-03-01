@@ -5,6 +5,7 @@ SAVEHIST=10000
 export EDITOR=nvim
 export PATH=/home/raican/.cargo/bin:$PATH
 export PATH="$HOME/.local/share/gem/ruby/3.3.0/bin:$PATH"
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 bindkey -v
 # bindkey '^P' up-history
 # bindkey '^N' down-history

@@ -22,7 +22,16 @@ return {
       end,
       { desc = "Toggle mini map"})
       diff.setup()
-      cmd.setup()
+      cmd.setup({
+        autocomplete = {
+          enable = false
+        },
+        autopeek = {
+          predicate = function ()
+            return true
+          end
+        }
+      })
     end
   }
 }
