@@ -28,3 +28,10 @@ compinit
 # End of lines added by compinstall
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
+
+# bun completions
+[ -s "/home/raican/.bun/_bun" ] && source "/home/raican/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

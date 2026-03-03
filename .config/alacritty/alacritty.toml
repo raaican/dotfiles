@@ -7,7 +7,8 @@ padding = { x = 5, y = 5 }
 opacity = 0.95
 
 [font]
-normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+normal = { family = "JetBrains Mono Nerd Font", style = "Regular" }
+builtin_box_drawing = true
 #normal = { family = "SauceCodePro Nerd Font", style = "Black,Regular" }
 #bold = { family = "SauceCodePro NF SemiBold", style = "Bold" }
 #italic = { family = "SauceCodePro NF SemiBold", style = "Italic" }

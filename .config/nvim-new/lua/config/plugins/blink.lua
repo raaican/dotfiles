@@ -5,7 +5,7 @@ return {
     version = '1.*',
     opts = {
       keymap = { preset = 'default',
-      ['<Tab>'] = { function(cmp) cmp.accept({ index = 1 }) end }
+      ['<Tab>'] = { function(cmp) cmp.accept() end }
     },
 
       appearance = {

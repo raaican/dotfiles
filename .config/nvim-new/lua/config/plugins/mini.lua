@@ -9,7 +9,10 @@ return {
       local diff = require('mini.diff')
       local cmd = require('mini.cmdline')
       statusline.setup({ use_icons = true })
-      animate.setup({ timing = 60 })
+      animate.setup({
+        cursor = { enable = false },
+        timing = 50
+      })
       miniclue.setup({
         triggers = {
           { mode = { 'n', 'x' }, keys = '<Leader>' }

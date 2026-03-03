@@ -14,10 +14,12 @@ return {
     },
     config = function()
       vim.diagnostic.config({
-        virtual_text = false,
-        signs = false,
+        virtual_text = true,
+        signs = true,
         underline = true,
       })
+      vim.opt.signcolumn = "yes"
+      vim.lsp.enable('html')
       vim.lsp.enable('lua_ls')
       vim.lsp.enable('clangd')
       vim.lsp.enable('gopls')
