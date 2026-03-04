@@ -10,11 +10,11 @@ static unsigned int baralpha        = 0xd0;
 static unsigned int borderalpha     = OPAQUE;
 static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=10" };
 static const char dmenufont[]       = "JetBrainsMono Nerd Font:size=10";
-static const char col_gray1[]       = "#17121A";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#37334A";
+static const char col_gray1[]       = "#17121A"; /* Mantle  */
+static const char col_gray2[]       = "#444444"; /* Crust   */
+static const char col_gray3[]       = "#bbbbbb"; /* Light 0 */
+static const char col_gray4[]       = "#eeeeee"; /* Light 1 */
+static const char col_cyan[]        = "#37334A"; /* Accent  */
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -66,6 +66,7 @@ static const char *termcmd[]  = { "kitty", "--title", "kitty", NULL };
 static const char *flameshotcmd[]  = { "flameshot", "gui", NULL };
 static const char *cmuscmd[]  = { "alacritty", "-e", "cmus", NULL };
 static const char *thunarcmd[] = { "thunar", NULL };
+static const char *emojicmd[] = { "/home/raican/.local/bin/emojis.sh", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -75,6 +76,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_s,      spawn,          {.v = flameshotcmd } },
 	{ MODKEY|ShiftMask,             XK_x,      spawn,          {.v = cmuscmd } },
 	{ MODKEY,                       XK_e,      spawn,          {.v = thunarcmd } },
+	{ MODKEY|ShiftMask,             XK_m,      spawn,          {.v = emojicmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
