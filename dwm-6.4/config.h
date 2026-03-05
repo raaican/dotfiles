@@ -67,6 +67,7 @@ static const char *flameshotcmd[]  = { "flameshot", "gui", NULL };
 static const char *cmuscmd[]  = { "alacritty", "-e", "cmus", NULL };
 static const char *thunarcmd[] = { "thunar", NULL };
 static const char *emojicmd[] = { "/home/raican/.local/bin/emojis.sh", NULL };
+static const char *boomercmd[] = { "/home/raican/.local/bin/boomer", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -77,6 +78,7 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_x,      spawn,          {.v = cmuscmd } },
 	{ MODKEY,                       XK_e,      spawn,          {.v = thunarcmd } },
 	{ MODKEY|ShiftMask,             XK_m,      spawn,          {.v = emojicmd } },
+	{ MODKEY|ShiftMask,             XK_b,      spawn,          {.v = boomercmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
