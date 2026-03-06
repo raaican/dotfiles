@@ -10,11 +10,11 @@ static unsigned int baralpha        = 0xd0;
 static unsigned int borderalpha     = OPAQUE;
 static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=10" };
 static const char dmenufont[]       = "JetBrainsMono Nerd Font:size=10";
-static const char col_gray1[]       = "#17121A"; /* Mantle  */
-static const char col_gray2[]       = "#444444"; /* Crust   */
+static const char col_gray1[]       = "#1D3046"; /* Mantle  */
+static const char col_gray2[]       = "#23415B"; /* Crust   */
 static const char col_gray3[]       = "#bbbbbb"; /* Light 0 */
 static const char col_gray4[]       = "#eeeeee"; /* Light 1 */
-static const char col_cyan[]        = "#37334A"; /* Accent  */
+static const char col_cyan[]        = "#415A75"; /* Accent  */
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
