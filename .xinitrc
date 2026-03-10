@@ -2,10 +2,10 @@
 export PATH="$HOME/.local/bin:$PATH"
 
 # xrandr --output DP-1 --primary --mode 1600x900 --pos 0x0 --rotate normal
-xinput set-prop pointer:"CX 2.4G Dual Mode Mouse" 'libinput Accel Speed' -0.60
+xinput set-prop pointer:"Cooler Master Technology Inc. MM711 Gaming Mouse" 'libinput Accel Speed' -0.60
 xset r rate 300 60
 xset s off
-xset dpms 3700 0 3760
+xset -dpms
 setxkbmap -option caps:swapescape
 
 ~/.fehbg &
