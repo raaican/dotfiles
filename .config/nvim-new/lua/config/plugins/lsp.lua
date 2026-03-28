@@ -24,6 +24,7 @@ return {
       vim.lsp.enable('clangd')
       vim.lsp.enable('gopls')
       vim.lsp.enable('bashls')
+      vim.lsp.enable('ts_ls')
       vim.keymap.set('n', '<Leader><Tab>', function() vim.lsp.buf.format() end, { desc = "Format entire buffer"})
       vim.keymap.set('n', '<Leader>ch', function() vim.diagnostic.hide() end, { desc = "Hide diagnostics"})
       vim.keymap.set('n', '<Leader>cs', function() vim.diagnostic.show() end, { desc = "Show diagnostics"})

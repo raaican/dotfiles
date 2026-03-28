@@ -8,8 +8,8 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static unsigned int baralpha        = 0xd0;
 static unsigned int borderalpha     = OPAQUE;
-static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=10" };
-static const char dmenufont[]       = "JetBrainsMono Nerd Font:size=10";
+static const char *fonts[]          = { "Jetbrains Mono Nerd Font:size=10" };
+static const char dmenufont[]       = "Jetbrains Mono Nerd Font:size=10";
 static const char col_gray1[]       = "#1D3046"; /* Mantle  */
 static const char col_gray2[]       = "#23415B"; /* Crust   */
 static const char col_gray3[]       = "#bbbbbb"; /* Light 0 */
@@ -64,10 +64,10 @@ static const char *dmenucmd[] = { "dmenu_run", "-fn", dmenufont, "-nb", col_gray
 static const char *launchercmd[]  = { "rofi", "-show", "drun", NULL };
 static const char *termcmd[]  = { "kitty", "--title", "kitty", NULL };
 static const char *flameshotcmd[]  = { "flameshot", "gui", NULL };
-static const char *cmuscmd[]  = { "alacritty", "-e", "cmus", NULL };
 static const char *thunarcmd[] = { "thunar", NULL };
 static const char *emojicmd[] = { "/home/raican/.local/bin/emojis.sh", NULL };
 static const char *boomercmd[] = { "/home/raican/.local/bin/boomer", NULL };
+static const char *aniclicmd[]  = { "ani-cli", "--rofi", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -75,7 +75,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_r,      spawn,          {.v = launchercmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_s,      spawn,          {.v = flameshotcmd } },
-	{ MODKEY|ShiftMask,             XK_x,      spawn,          {.v = cmuscmd } },
+	{ MODKEY|ShiftMask,             XK_x,      spawn,          {.v = aniclicmd } },
 	{ MODKEY,                       XK_e,      spawn,          {.v = thunarcmd } },
 	{ MODKEY|ShiftMask,             XK_m,      spawn,          {.v = emojicmd } },
 	{ MODKEY|ShiftMask,             XK_b,      spawn,          {.v = boomercmd } },
